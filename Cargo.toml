@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "examples/simple_select",
+    "sql_mapper",
+]

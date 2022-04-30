@@ -1,0 +1,17 @@
+[package]
+name = "sql_mapper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+syn = { version = "1.0", features = ["derive", "extra-traits", "full"] }
+quote = "1.0"
+paste = "1.0"
+diesel = { version = "1.4.4" }
+postgres = "0.19.3"
